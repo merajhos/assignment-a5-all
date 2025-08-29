@@ -96,12 +96,12 @@ function Customed(message) {
   setTimeout(() => {
     customs.classList.add("hidden");
   }, 1000);
-// }
+}
 
-// function showCustomAlert(message) {
-//   alertMessage.innerText = message;
-//   customAlert.classList.remove("hidden");
-//   setTimeout(() => {
-//     customAlert.classList.add("hidden");
-//   }, 1000);
-// }
+function showCustomAlert(message) {
+  alertMessage.innerText = message;
+  customAlert.classList.remove("hidden");
+  setTimeout(() => {
+    customAlert.classList.add("hidden");
+  }, 1000);
+}
